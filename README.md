@@ -1,7 +1,7 @@
 # cozy-tea-company-page
 flex box based cozy tea company page
 [live demo](https://heggy231.github.io/cozy-tea-company-page/)
-## Given provided design spec [https://raw.githubusercontent.com/heggy231/cozy-tea-company-page/master/img-tea-cozy-redline.jpg] I created responsive flex-box based website.
+## Given provided [design spec](https://raw.githubusercontent.com/heggy231/cozy-tea-company-page/master/img-tea-cozy-redline.jpg)] I created responsive flex-box based website.
 
 ![design spec redline](https://raw.githubusercontent.com/heggy231/cozy-tea-company-page/master/img-tea-cozy-redline.jpg)
 
