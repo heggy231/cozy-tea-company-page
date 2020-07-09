@@ -3,7 +3,8 @@ flex box based cozy tea company page
 [live demo](https://heggy231.github.io/cozy-tea-company-page/)
 ## Given provided [design spec](https://raw.githubusercontent.com/heggy231/cozy-tea-company-page/master/img-tea-cozy-redline.jpg) I created responsive flex-box based website.
 
-![design spec redline](https://raw.githubusercontent.com/heggy231/cozy-tea-company-page/master/img-tea-cozy-redline.jpg =250x)
+<img src="https://raw.githubusercontent.com/heggy231/cozy-tea-company-page/master/img-tea-cozy-redline.jpg" alt="tea house design spec" width="200">
+
 
 Lesson: 
 1. hard to get the nave bar spread out.  
