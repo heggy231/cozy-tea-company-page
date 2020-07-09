@@ -1,0 +1,167 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  height: 100%;
+}
+
+a {
+  color: seashell;
+  opacity: 0.5;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 0px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+/* header section */
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+/* flex-grow: ratios to grow to fill the available space at the same rate */
+nav {
+  text-align: right;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* Main Section */
+.main {
+  /* make up for the fixed
+      nav bar.
+   */
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Mission Section */
+
+#mission {
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#mission .content {
+  /* center vertically 
+  to parent container */
+  margin: auto;
+  background-color: rgba(5, 5, 5, 0.623);
+  width: 100%;
+}
+
+.content-title {
+  padding: 6px;
+}
+
+.content-detail {
+  padding-bottom: 6px;
+}
+
+/* Store Section */
+#store {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.item {
+  padding: 5px;
+  /* smart width when using flex-box */
+  flex-basis: 310px;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+}
+
+.item img {
+  height: 200px;
+  margin: 10px;
+}
+
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Location Section */
+.flex-container.locations {
+  padding-top: 5px;
+}
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 70px;
+}
+
+#locations .flex-container {
+  margin: auto;
+  width: 1200px;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  /* smart width to apply for flexed item */
+  flex-basis: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* Contact Section */
+#contact {
+  height: 200px;
+}
+
+/* Footer Section */
+footer {
+  text-align: left;
+}
