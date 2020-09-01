@@ -12,4 +12,4 @@ At first used unordered list to create the nav items and flex-box wouldn't work.
 
 2. transferring what redline says to actual code. 
 
-End
+End~~~
